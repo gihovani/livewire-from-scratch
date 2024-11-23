@@ -7,14 +7,10 @@ use App\Models\Article;
 use Livewire\Attributes\Title;
 use Livewire\Attributes\Validate;
 
-#[Title('Create Article')]
+#[Title('Edit Article')]
 class ArticleEdit extends AdminComponent
 {
     public ArticleForm $form;
-    #[Validate('required')]
-    public string $title = '';
-    #[Validate('required|min:10')]
-    public string $content = '';
 
     public function save(): void
     {

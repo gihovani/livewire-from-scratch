@@ -19,10 +19,13 @@
                     <div class="w-full block" id="navbar-default">
                         <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                             <li>
-                                <a href="/dashboard" class="block py-2 px-3 text-blue-500">Admin Dashboard</a>
+                                <a href="/dashboard" class="block py-2 px-3 text-blue-500 hover:text-blue-800">Admin Dashboard</a>
                             </li>
                             <li>
-                                <a href="/dashboard/articles" class="block py-2 px-3 text-blue-500">Articles</a>
+                                <a href="/dashboard/articles" class="block py-2 px-3 text-blue-500 hover:text-blue-800">Articles</a>
+                            </li>
+                            <li style="margin-left: auto">
+                                <a href="/" class="block py-2 px-3 text-red-500 hover:text-red-800">Logout</a>
                             </li>
                         </ul>
                     </div>
